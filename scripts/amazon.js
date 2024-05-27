@@ -85,3 +85,9 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     document.querySelector(`.js-added-to-cart-${productId}`).style.opacity = 1;
   })
 });
+
+let displayMessage = localStorage.getItem('displayMessage');
+if(!displayMessage){
+  alert("Hi, My name is Nithin. I am working on this project,  some functionalities won't work..");
+  localStorage.setItem('displayMessage','no');
+}
