@@ -2,14 +2,6 @@ import {cart,addToCart} from '../data/cart.js';
 import {products} from '../data/products.js';
 import { formatCurrency } from './utils/money.js';
 
-let loadMessage = localStorage.getItem('loadMessage') || 'yes';
-
-if(loadMessage === 'yes'){
-  alert("I am working on this project... some features won't work");
-  loadMessage='no';
-  localStorage.setItem('loadMessage',loadMessage);
-}
-
 let productsHTML='';
 
 products.forEach((product) => {
