@@ -86,8 +86,8 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   })
 });
 
-let displayMessage = localStorage.getItem('displayMessage');
-if(!displayMessage){
-  alert("Hi, My name is Nithin. I am working on this project,  some functionalities won't work..");
-  localStorage.setItem('displayMessage','no');
-}
+// let displayMessage = localStorage.getItem('displayMessage');
+// if(!displayMessage){
+//   alert("Hi, My name is Nithin. I am working on this project,  some functionalities won't work..");
+//  localStorage.setItem('displayMessage','no');
+// }
